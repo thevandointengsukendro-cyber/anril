@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', 'Noto Sans Math', 'STIX Two Math', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-serif: 'Fraunces', 'STIX Two Math', 'Noto Sans Math', Georgia, serif;
+    --font-mono: 'IBM Plex Mono', 'Noto Sans Math', 'STIX Two Math', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #F8FAFC;
+    color: #0F172A;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .font-display {
+    font-family: var(--font-sans);
+  }
+
+  .font-math {
+    font-family: 'STIX Two Math', 'Noto Sans Math', var(--font-serif);
+  }
+
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+}

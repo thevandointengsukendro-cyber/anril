@@ -1,0 +1,6 @@
+{
+  "name": "AnrilLab: Squeeze Theorem & Pembuktian Standar Bu Dea",
+  "description": "Dashboard interaktif penyelesaian 14 soal Analisis Real Meeting VIII (Teorema Apit / Squeeze Theorem 3.2.7) dengan standar jawaban lisan/tertulis Ibu Dea dan verifikasi berlapis Math.skill.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
